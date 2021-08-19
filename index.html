@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <![endif]-->
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Trevor Zawalich</title>
+        <meta name="description" content="Trevor Zawalich's Personal Site">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="icon" href="img/favicon/favicon.png">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;600;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="css/style.css">
+        
+
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+        <div id="nav_bar">
+            <span class="blur"></span>
+            <div id="nav_bar__mobile_toggle">
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+            <ul class="hide_mobile">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+        <section id="home">
+            <a href="#about">
+                <div id="home__container">
+                    <span>
+                        <h1>Trevor Zawalich</h1>
+                        <h2>Full-Stack & Front-End Developer</h2>
+                    </span>
+                </div>
+            </a>
+        </section>
+        <section id="about">
+            <h2 id="about__title">About Me</h2>
+            <div id="about__flex_wrapper">
+                <div id="about__image">
+                    <a href="https://www.linkedin.com/in/trevor-zawalich/" target="_blank">
+                        <img height="300" width="300" alt="Photo of Trevor Zawalich in front of tropical plants" src="./img/me/me.jpg"/>
+                        <p class="image_text_overlay">
+                            View my LinkedIn
+                        </p>
+                    </a>
+                </div>
+                <div id="about__text">
+                    <p>Hey, I'm Trevor.</p>
+
+                    <p>I'm a Front-End/Full-Stack Developer based in the Greater Vancouver Area.</p>
+
+                    <p>After graduating from SFU and BCIT, I've spent the last few years working in both corporate and freelance 
+                        development environments. I like to keep up to date on the various tech-stacks I work with through
+                        extra-curricular study, and make it a point to integrate whatever I learn into my personal skillset. 
+                    </p>
+
+                    <p>These days I spend a lot of my time designing and developing client-focused web applications utilizing 
+                        HTML, CSS/SASS, JavaScript, React.js, Node.js, Express, PHP, Python, and more.
+                        (Check out my LinkedIn profile for a more robust list of the tech and frameworks I've used in projects).
+                    </p>
+                    
+                    <p>When I'm not skittering around the web building stuff, I like reading sci-fi and
+                    medieval lit, checking out indie games, hitting the gym, listening to metal, 
+                    and exploring the city.</p>
+                    
+                    <p>If you want to collaborate, ask questions, or just chat, hit me up in my <a href="#contact">
+                        Contact Section</a> and we can talk.</p>
+                </div>
+            </div>
+        </section>
+        <section id="projects">
+            <h2 id="projects__title">My Projects</h2>
+            <div id="projects__current">
+                <h3>Check out what I'm working on right now</h3>
+                <div id="projects__current_link">
+                    <a href="https://tavern-games.herokuapp.com" target="_blank">
+                        <img src="img/tavern-games/tavern-games.png" alt="Tavern games page screenshot"> 
+                    </a>
+                </div>
+                <div id="projects__current_writeup">
+                    <p>A collection of Dungeons & Dragons themed multiplayer (socket.io) tavern games</p>
+                    <p><a href="https://tavern-games.herokuapp.com" target="_blank">Check it out here</a>
+                        &mdash;&mdash;&mdash;	
+                    <a href="https://github.com/TZawalich/tavern-games-current" target="_blank">View it on GitHub</a></p>
+
+                </div>
+            </div>
+            <div id="projects__git">
+                <h3>Take a peek at my older (sometimes very old) projects on GitHub</h3>
+                <div id="projects__git_container">
+                    <ul id="projects__git_list">
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <section id="contact">
+            <h2 id="contact__title">Contact Me</h2>
+            <h3>Send Me a Message or Check Out Some of my Work</h3>
+            <div class="contact__links">
+                <div id="contact__linkedin">
+                    <a href="https://www.linkedin.com/in/trevor-zawalich/" target="_blank">
+                        <img height="120" width="120" alt="LinkedIn logo profile link" src="./img/LI/LI-In-Bug.png"/>
+                        <p>LinkedIn</p>
+                    </a>
+                </div>
+                <div id="contact__github">
+                    <a href="https://github.com/TZawalich" target="_blank">
+                        <img height="120" width="120" alt="Github logo profile link" src="./img/GH/PNG/GitHub-Mark-Light-120px-plus.png">
+                        <p>GitHub</p>
+                    </a>
+                </div>
+            </div>
+            <div id="footer">
+                <p>Copyright &#169; 2021 Trevor Zawalich</p>
+            </div>
+        </section>
+        <script> </script> <!-- chrome bug, prevents transitions from firing on load -->
+        <script src="js/index.js" async defer></script>
+    </body>
+</html>  
